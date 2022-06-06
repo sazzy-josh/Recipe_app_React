@@ -79,7 +79,7 @@ const Popular = () => {
               // autoplay: true,
               // autoplaySpeed: 9000,
               cssEase: "linear",
-              arrows:true ,
+              
  
 
             }
@@ -118,12 +118,12 @@ width: 80%;
     
 `
 const ImageWrapper = styled.div`
-width: 400px;
-height: 400px;
+width: 350px;
+height: 350px;
 position: absolute;
 border-radius: 10px; 
 margin: 15px 5px;
-padding: 10px 20px;
+padding: 0px 40px;
 
 & img {
    max-width: 100%;
@@ -137,8 +137,8 @@ padding: 10px 20px;
 `
 
 const Wrapper = styled.div`
- width: 400px;
- height: 400px;
+ width: 350px;
+ height: 350px;
  border-radius: 30px;
  /* margin: 0px 60px; */
  position: relative;
