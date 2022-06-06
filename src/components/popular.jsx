@@ -78,7 +78,10 @@ const Popular = () => {
               slidesToScroll: 1,
               // autoplay: true,
               // autoplaySpeed: 9000,
-              cssEase: "linear"
+              cssEase: "linear",
+              arrows:false,
+ 
+
             }
           }
         ]
@@ -115,12 +118,12 @@ width: 80%;
     
 `
 const ImageWrapper = styled.div`
-width: 350px;
-height: 350px;
+width: 400px;
+height: 400px;
 position: absolute;
 border-radius: 10px; 
 margin: 15px 5px;
-padding: 10px 30px;
+padding: 10px 20px;
 
 & img {
    max-width: 100%;
