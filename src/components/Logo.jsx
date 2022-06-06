@@ -16,7 +16,7 @@ const Logo = () => {
 const Log = styled(Link)`
   font-size:26px ;
   font-weight: 600;
-  font-family: 'Lilita One', cursive;
+ 
   padding: 15px 20px;
   color: #9b439b;
   display: flex;
