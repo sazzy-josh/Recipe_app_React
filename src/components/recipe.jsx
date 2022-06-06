@@ -51,9 +51,7 @@ const Recipe = () => {
 
                <Content>
                  { active === 'instructions' ? <div>
-                 {/* <p dangerouslySetInnerHTML={{ __html: recipeDetails.instructions} }>
-                  {recipeDetails.instructions}  
-                 </p>  */}
+                 
                  <Summary>
                  <h4>Summary</h4>
                  <div style={{marginBottom:"10px"}} dangerouslySetInnerHTML={{ __html: recipeDetails.summary} }></div>
@@ -76,6 +74,10 @@ const Recipe = () => {
 }
 
 const Details = styled.div`
+@media only screen and (max-width: 425px){
+  padding: 0px 20px;
+  margin-top: -50px;
+}
  padding: 20px 35px;
 
  .active{
@@ -116,10 +118,31 @@ const Grid = styled.div`
   width: 40%;
   display: flex;
   justify-content: space-around;
-    
+  
+
+
+  @media only screen and (max-width: 425px) {       
     div{
-        width:400px ;
-        height: 400px;
+      width: 200px;
+      height: 200px;
+     
+    }
+       }
+      
+
+       
+      
+  
+    
+  
+
+    div{
+        width:350px ;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
         img{
             margin-top: 10px;
@@ -145,7 +168,16 @@ const Container = styled.div`
    @media only screen and (max-width: 1024px) {
      display: flex;
      flex-direction: column;
+     padding: 0 20px ;
+     h5{
+       margin-bottom: -50px;
+     }
    }
+
+   @media only screen and (max-width: 425px){
+     padding: 5px ;
+     
+   } 
 
     h5{
         text-align: center;
