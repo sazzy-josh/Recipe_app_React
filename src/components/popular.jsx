@@ -79,7 +79,7 @@ const Popular = () => {
               // autoplay: true,
               // autoplaySpeed: 9000,
               cssEase: "linear",
-              arrows:false,
+              arrows:true ,
  
 
             }
@@ -137,8 +137,8 @@ padding: 10px 20px;
 `
 
 const Wrapper = styled.div`
- width: 350px;
- height: 350px;
+ width: 400px;
+ height: 400px;
  border-radius: 30px;
  /* margin: 0px 60px; */
  position: relative;
