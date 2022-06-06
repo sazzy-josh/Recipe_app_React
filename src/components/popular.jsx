@@ -78,7 +78,10 @@ const Popular = () => {
               slidesToScroll: 1,
               // autoplay: true,
               // autoplaySpeed: 9000,
-              cssEase: "linear"
+              cssEase: "linear",
+              
+ 
+
             }
           }
         ]
@@ -120,7 +123,7 @@ height: 350px;
 position: absolute;
 border-radius: 10px; 
 margin: 15px 5px;
-padding: 10px 30px;
+padding: 0px 40px;
 
 & img {
    max-width: 100%;
