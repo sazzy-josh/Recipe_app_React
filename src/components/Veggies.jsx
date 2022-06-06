@@ -102,13 +102,27 @@ const Veggies = () => {
 }
 const Container = styled.div`
    width: 90%;
-   margin: 0 10px;  
+   margin: 0 10px; 
+   margin-top :-20px ;
+
+   @media only screen and (max-width: 425px)  {
+  margin-top: -5px;
+  font-size: 15px;
+}
 `
 const ImageWrapper = styled.div`
 width: 400px;
 height: 400px;
 position: absolute;
-padding: 10px 30px;
+padding: 10px 34px;
+@media only screen and (max-width: 1024px)  {
+  padding: 15px 35px;
+}
+
+@media only screen and (max-width: 425px)  {
+  margin-left: -30px;
+  margin-top: 5px;
+}
 
 & img {
   max-width: 100%;

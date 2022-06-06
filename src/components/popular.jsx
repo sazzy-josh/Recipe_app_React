@@ -114,7 +114,11 @@ const Popular = () => {
 }
 const Container = styled.div`
 width: 80%;
-   
+margin-top: -75px;
+  
+@media only screen and (max-width: 425px) {
+  margin-top:-50px ;
+}
     
 `
 const ImageWrapper = styled.div`
@@ -124,6 +128,12 @@ position: absolute;
 border-radius: 10px; 
 margin: 15px 5px;
 padding: 0px 40px;
+
+@media only screen and (max-width: 425px) {
+  margin: 5px 10px;
+  padding: 0px 25px;
+  margin-left: -5px;
+}
 
 & img {
    max-width: 100%;
