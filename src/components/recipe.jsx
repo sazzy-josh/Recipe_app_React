@@ -51,12 +51,12 @@ const Recipe = () => {
 
                <Content>
                  { active === 'instructions' ? <div>
-                 <p>
+                 {/* <p dangerouslySetInnerHTML={{ __html: recipeDetails.instructions} }>
                   {recipeDetails.instructions}  
-                 </p> 
+                 </p>  */}
                  <Summary>
                  <h4>Summary</h4>
-                 <div dangerouslySetInnerHTML={{ __html: recipeDetails.summary} }></div>
+                 <div style={{marginBottom:"10px"}} dangerouslySetInnerHTML={{ __html: recipeDetails.summary} }></div>
                  <div dangerouslySetInnerHTML={{ __html: recipeDetails.instructions} }></div>
                  </Summary> 
                  </div> :  <ul>
