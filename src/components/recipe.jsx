@@ -54,8 +54,8 @@ const Recipe = () => {
                  
                  <Summary>
                  <h4>Summary</h4>
-                 <div style={{marginBottom:"10px"}} dangerouslySetInnerHTML={{ __html: recipeDetails.summary} }></div>
-                 <div dangerouslySetInnerHTML={{ __html: recipeDetails.instructions} }></div>
+                 <p style={{marginBottom:"10px"}} dangerouslySetInnerHTML={{ __html: recipeDetails.summary} }></p>
+                 <p dangerouslySetInnerHTML={{ __html: recipeDetails.instructions} }></p>
                  </Summary> 
                  </div> :  <ul>
                    {recipeDetails.extendedIngredients.map((item)=> (
@@ -77,6 +77,10 @@ const Details = styled.div`
 @media only screen and (max-width: 425px){
   padding: 0px 20px;
   margin-top: -50px;
+
+p{
+font-size:13px;
+}
 }
  padding: 20px 35px;
 
@@ -112,6 +116,7 @@ const ButttonWrapper = styled.div`
 
 const Summary = styled.div`
   margin-top: 20px;
+
 `
 
 const Grid = styled.div`
