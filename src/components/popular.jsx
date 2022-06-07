@@ -76,8 +76,8 @@ const Popular = () => {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              // autoplay: true,
-              // autoplaySpeed: 9000,
+              autoplay: true,
+              autoplaySpeed: 6000,
               cssEase: "linear",
               
  
