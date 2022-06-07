@@ -133,6 +133,7 @@ padding: 0px 40px;
   margin: 5px 10px;
   padding: 0px 25px;
   margin-left: -5px;
+  margin-top: 15px;
 }
 
 & img {
