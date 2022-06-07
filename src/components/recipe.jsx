@@ -78,8 +78,8 @@ const Details = styled.div`
   padding: 0px 20px;
   margin-top: -50px;
 
-p{
-font-size:13px;
+p ,li {
+font-size:12px;
 }
 }
  padding: 20px 35px;
