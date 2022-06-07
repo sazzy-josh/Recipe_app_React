@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <Container><p>All right Reserved &copy; ..
         <br />
-        Designed by Sazzy to satisfy your taste Buds 😁.</p></Container>
+        Designed by Sazzy solely to satisfy your taste Buds 😁.</p></Container>
   )
 }
 
