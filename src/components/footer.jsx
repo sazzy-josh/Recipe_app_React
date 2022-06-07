@@ -18,6 +18,7 @@ const Container = styled.div`
     color: white;
     font-size: 10px;
     padding: 10px 0;
+    margin-top: 20px;
 `
 
 export default Footer
