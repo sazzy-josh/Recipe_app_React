@@ -132,8 +132,8 @@ padding: 0px 40px;
 @media only screen and (max-width: 425px) {
   margin: 5px 10px;
   padding: 0px 25px;
-  margin-left: -5px;
-  margin-top: 15px;
+  margin-left: -10px;
+  margin-top: 25px;
 }
 
 & img {
